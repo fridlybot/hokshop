@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Replace with your Google Apps Script web app URL
-GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzRuc_TqUsLK7bmYj3QLvl8-MtpeGOCTV_dOoMLm2DzOK2wZAT7n0hRRA4-KMFv6wBWSw/exec"
+GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxHNDfr4X5qs-mQiYoeDw_0xjeqv8y9UCLIv2Y1zm0S7hXD86aB0_EDx4wowHwGktnF/exec"
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
